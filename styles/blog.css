@@ -1,0 +1,71 @@
+*body{
+    width: 1920px;
+height: 4867px;
+}
+.banner{
+    display: flex;
+    align-items: center;
+    background-color:rgba(229, 84, 115, 0.10);
+    /* padding: 30px 30px 0 */
+
+    width: 1920px;
+    height: 850px;
+    flex-shrink: 0;
+}
+.banner .flower{
+    width: 635px;
+height: 800px;
+position: absolute;
+top: 50px;
+left: 1045px;
+bottom: 0px;
+right: 240px;
+margin-left: 97px;
+
+}
+.banner-tittle{
+    display: flex;
+   
+padding-top: 197px;
+padding-left: 240px;
+width: 708px;
+color: #272727;
+font-family: Lato;
+font-size: 80px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+margin-bottom: 32px;
+}
+.banner-description{
+    display: flex;
+    color: rgba(39, 39, 39, 0.60);
+font-family: Lato;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px;
+width: 634px;
+
+padding-left: 240px;
+
+padding-right: 1046px;
+}
+.banner .button{
+margin-left: 240px;
+margin-bottom: 147px;
+margin-right: 1503px;
+border-radius: 8px;
+background: #E55473;
+display: inline-flex;
+padding: 20px 43px;
+align-items: flex-start;
+gap: 10px;
+color: #FFF;
+font-family: Lato;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+
+}
