@@ -57,7 +57,7 @@ margin-bottom: 147px;
 margin-right: 1503px;
 border-radius: 8px;
 background: #E55473;
-display: inline-flex;
+display: inline;
 padding: 20px 43px;
 align-items: flex-start;
 gap: 10px;
@@ -190,19 +190,6 @@ background: url(<path-to-image>), lightgray 50% / cover no-repeat;
 .main{
     margin: 0px;
 }
-.back-tittle{
-    color: #272727;
-text-align: center;
-font-family: Lato;
-font-size: 40px;
-font-style: normal;
-font-weight: 800;
-line-height: normal;
-padding-bottom: 279px;
-padding-left: 534px;
-padding-right: 534px;
-padding-top: 122px;
-}
 .back-image{
     width: 1440px;
 height: 449px;
@@ -211,24 +198,86 @@ border-radius: 8px;
 background: url(<path-to-image>), lightgray 0px -203.444px / 100% 213.755% no-repeat;
 background-image: url(../images/Rectangle\ 9.png);
 margin-left: 240px;
-margin-right: 240px;
-
-/* margin: auto; */
-
 }
-.back-description{
-    margin-top: 186px;
-    color: rgba(39, 39, 39, 0.60);
+.back-tittle{
+    color: #272727;
     text-align: center;
     font-family: Lato;
-    font-size: 18px;
+    font-size: 40px;
     font-style: normal;
-    font-weight: 400;
-    line-height: 30px;
-    position: absolute;
+    font-weight: 800;
+    line-height: normal;
+    margin-left: 533px;
+    margin-right: 534px;
+    display: flex;
+    bottom: 10px;
 }
+.back-description{
+    color: rgba(39, 39, 39, 0.60);
+text-align: center;
+font-family: Lato;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px;
+display: flex;
+margin-left: 604px;
+margin-right: 605px;
+top: 0px;
+}
+
+
+.email-name{
+    color: rgba(39, 39, 39, 0.60);
+text-align: center;
+font-family: Lato;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-left: 287px;
+margin-right: 453px;
+width: 700px;
+height: 64px;
+flex-shrink: 0;
+text-align: left;
+
+}
+.old-button{
+    width: 150px;
+height: 64px;
+flex-shrink: 0;
+border-radius: 8px;
+background: #E55473;
+margin-left: 1003px;
+margin-top: -68px;
+/* margin-top: 264px; */
+/* margin-bottom: 121px; */
+/* margin-right: 287px; */
+
+
+display: flex;
+}
+.text-modify{
+    display: flex;
+width: 88px;
+height: 27.429px;
+flex-direction: column;
+flex-shrink: 0;
+color: #FFF;
+font-family: Lato;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+
+   
+
 .new-color{
     color: #E55473;
+    
 }
 .footer{
     width: 1922px;
@@ -274,6 +323,42 @@ font-style: normal;
 font-weight: 400;
 line-height: normal;
 }
+.second-banner{
+    width: 1920px;
+height: 4867px;
+background: #FFF;
+}
+.feature-flower{
+    color: #272727;
+text-align: center;
+font-family: Lato;
+font-size: 40px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+margin-left: 764px;
+margin-right: 764px;
+display: flex;
+}
+.flower-descriptio{
+    display: flex;
+width: 594px;
+flex-direction: column;
+flex-shrink: 0;
+color: rgba(39, 39, 39, 0.60);
+text-align: center;
+font-family: Lato;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px;
+margin-left: 663px;
+margin-right: 663px;
+}
+.second-banner .image-p{
+    margin-left: 240px;
+}
+
 
 
 
