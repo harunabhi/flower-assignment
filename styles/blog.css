@@ -324,8 +324,8 @@ font-weight: 400;
 line-height: normal;
 }
 .second-banner{
-    width: 1920px;
-height: 4867px;
+    /* width: 1920px; */
+/* height: 4867px; */
 background: #FFF;
 }
 .feature-flower{
@@ -357,6 +357,29 @@ margin-right: 663px;
 }
 .second-banner .image-p{
     margin-left: 240px;
+}
+.flower-tittle{
+    display: flex;
+    margin-left: 381px;
+
+}
+.new-flower-tittle{
+    margin-left: 307px;
+}
+.container{
+    width: 1440px;
+height: 320px;
+flex-shrink: 0;
+border-radius: 8px;
+background: rgba(39, 39, 39, 0.05);
+}
+.container{
+    /* display: flex; */
+}
+.container.delivery-boy{
+    width: 88px;
+height: 88px;
+flex-shrink: 0;
 }
 
 
